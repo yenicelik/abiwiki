@@ -7,6 +7,6 @@ Have fun exploring!
 
 \#Final Modification February 2015
 
-\#Author: A. Kemal David Yenicelik
+\#Author: A. Kemal David Yenicelik and Matthias Schopf
 
 \#Use whatever snippets you want, tell me should it have helped you!
