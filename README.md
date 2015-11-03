@@ -6,5 +6,7 @@ data-driven website with a secure login-module. The only real framework used was
 Have fun exploring!
 
 \#Final Modification February 2015
+
 \#Author: A. Kemal David Yenicelik
+
 \#Use whatever snippets you want, tell me should it have helped you!
