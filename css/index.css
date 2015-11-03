@@ -1,0 +1,128 @@
+body
+{
+    /*
+    font-family: Arial;
+    font-size: 18px;
+    */
+    overflow-y: scroll;
+
+    margin: 0;
+    padding: 0;
+
+
+     
+  /*   background: radial-gradient(ellipse farthest-side at left top , #00549E 0px, transparent 100%) no-repeat scroll center top / 100% 500px #1E1E21;
+    */ 
+     background-image: url('5.jpg');
+     background-color: rgba(0, 0, 0, 0.3);
+     background-size: cover;
+
+  
+}
+
+#nav
+{
+    
+    background-color: rgba(32, 32, 32, 0.7);
+}
+
+#nav_wrapper
+{
+    width: 98%;
+    margin: 0 auto;
+
+    text-align: left;
+}
+
+#nav ul
+{
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+#nav ul li
+{
+    display: inline-block;
+}
+
+#nav ul li:hover
+{
+    background-color: #64B4C8;
+}
+
+#nav ul li a,
+visited
+{
+    display: block;
+
+    padding: 15px;
+
+    text-decoration: none;
+
+    color: #ccc;
+}
+
+#nav ul li a:hover
+{
+    text-decoration: none;
+
+    color: #ccc;
+}
+
+#nav ul li:hover ul
+{
+    display: block;
+}
+
+#nav ul ul
+{
+    position: absolute;
+
+    display: none;
+
+    min-width: 150px;
+    margin-left: -5px;
+
+    border: 2px solid #222;
+    border-top: 0;
+    background-color: #333;
+}
+
+#nav ul ul li
+{
+    display: block;
+}
+
+#editBut
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: .9em;
+
+    position: relative;
+
+    display: inline-block;
+    
+    width: 100%;
+    height: 1%;
+    margin: 0;
+
+    cursor: pointer;
+
+    color: #fff;
+ 
+    border-top: 1px outset rgb(80, 160, 170);
+    border-right: 0;
+    border-bottom: 1px outset rgb(55, 115, 125);
+    border-left: 0;
+    background-color: rgba(65, 140, 150, .9);
+}
+
+#editBut:hover
+{
+    border-left: 4px solid #eea643;
+    background-color: rgba(100, 180, 200, .9);
+}

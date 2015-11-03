@@ -1,0 +1,93 @@
+
+body {
+    margin: 0;
+    padding: 0;
+  /*  background: radial-gradient(ellipse farthest-side at left top , #00549E 0px, transparent 100%) no-repeat scroll center top / 100% 500px #1E1E21; */
+}
+
+#mainBody {
+    height: 30%;
+    width: 99%;
+    }
+
+    #pageTitle {
+        position: relative;
+        color: white;
+        margin-left: 3%;
+    }
+        
+        #title_1 { 
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 2000%;
+			line-height: 0.1em;
+            display: inline-block;
+        }
+        
+        #title_2 {
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 40px;
+			margin-top: -160px;
+			padding-left: 1.5%;
+		}		
+        
+        #mainBody p {
+            margin-left: 10px;
+        /*    font-family: 'Roboto Condensed', sans-serif;
+        */
+        }
+        
+        #mainBody a {
+            color: #008874;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+			
+#lowerPart {
+    height: 16%;
+    width: 100%;
+    background-color: #171A1F;
+}
+
+    #fachTable {
+	    border-collapse: separate;
+		border-spacing: 2px;
+		position: relative;
+		float: left;
+		margin: 1px;
+		margin-top: 8px;
+        width: 99%;
+	}
+		
+        #fachTable:hover tr td{
+			opacity: 0.4;
+		}
+		
+        #fachTable tr td {
+      
+            background-color: rgba(100, 180, 200, 0.9);
+
+		    border: 1px solid #171A1F;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			text-align: center;
+			padding-right: 6px;
+			padding-left: 6px;
+			border-radius: 1px;
+            width: 10%;
+
+		}
+        
+        #fachTable tr td:hover {
+			cursor: pointer;
+			opacity: 1;
+            border-left: 4px solid #bf7b2c;
+		}	
+			
+		#fachTable tr td a {
+		
+			text-decoration: none;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-weight: bold;
+			font-size: 1.5em;
+			color: #EEE;
+		}			
