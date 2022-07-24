@@ -69,7 +69,6 @@ CREATE TABLE `blog_users` (
 
 INSERT INTO `blog_users` (`user_ID`, `user_name`, `user_mail`, `user_password`) VALUES
 (13, 'asdas', 'dasda@adsdsa.com', 'cd3f10e127f060f50c66a31257468bbdf7a8fd3c'),
-(14, 'Dave', 'segaslp@gmail.com', '4b56877bb35e10b8f0f2522eca090bafa85e60c9'),
 (15, 'Dave', 'david.yenicelik@gmail.com', 'e12ec55eeacaf5bd29e6eae34eefb5e7a8415464');
 
 --
